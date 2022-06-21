@@ -10,58 +10,67 @@
 
 <body>
     <header>
-        <img src="./assets/images/profile.jpg" alt="profile-image"/>
         <h1>My Portfolio</h1>
         <nav>
-            <ul>
-                <li>About Me</li>
-                <li>My Work</li>
-                <li>Contact Me</li>  
-            </ul>
+            <a href="#about">About Me</a>
+            <a href="#work">My Work</a>
+            <a href="#contact-me">Contact Me</a>
         </nav>
     </header>
 
-    <img src="./assets/images/banner.jpg" alt="banner" />
+    <div class="banner"><img src="./assets/images/banner.jpg" alt="banner" /></div>
 
-    <section class="about">
+    <section id="about">
         <h2>About Me</h2>
         <p>
-            This is example text meant to represent what the text box would look like if it 
-            were bigger. This is example text meant to represent what the text box would look 
-            like if it were bigger. This is example text meant to represent what the text box 
-            would look like if it were bigger. This is example text meant to represent what 
-            the text box would look like if it were bigger. This is example text meant to 
-            represent what the text box would look like if it were bigger.
+            Hi! My Name is Charles Morton. I am from Charlotte, North Carolina. I am 
+            currently 20 years old. I graduated from Ardrey Kell High School in 2020.
+            I am looking to begin my career in the Web Development field. Currently, I
+            am enrolled in a coding bootcamp through Georgia Tech University, which 
+            has been a joy to be apart of. I truly love this field. The opportunities
+            to have fun and interesting problem solving tasks is something that I find
+            to be extremely rewarding. I hope through this display of my projects to 
+            show some of the skills and mastery I've developed up to this point.
         </p>
     </section>
 
-    <section class="work">
+    <section id="work">
         <h2>My Work</h2>
         <div >
-            <figure>    
-                <img src="./assets/images/traveler.jpg" alt="the-traveler" href="https://www.destinypedia.com/Traveler"/>            
+            <figure>
+                <a href="#"> 
+                    <img src="./assets/images/traveler.jpg" alt="the-traveler" />
+                </a>             
                 <figcaption><b>The Traveler</b><br>Earth</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/black-garden.jpg" alt="black-garden"/>
+                <a href="#">
+                    <img src="./assets/images/black-garden.jpg" alt="black-garden"/>
+                </a>
                 <figcaption><b>The Black Garden</b><br>Mars</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/dreadnaught.jpg" alt="dreadnaught"/>
+                <a href="#">
+                    <img src="./assets/images/dreadnaught.jpg" alt="dreadnaught"/>
+                </a>
                 <figcaption><b>The Dreadnaught</b><br>Saturn's Rings</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/hellmouth.jpg" alt="hellmouth"/>
+                <a href="#">
+                    <img src="./assets/images/hellmouth.jpg" alt="hellmouth"/>
+                </a>
                 <figcaption><b>The Hellmouth</b><br>The Moon</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/last-array.jpg" alt="last-array"/>
+                <a href="#">
+                    <img src="./assets/images/last-array.jpg" alt="last-array"/>
+                </a>
                 <figcaption><b>The Last Array</b><br>Earth</figcaption>
             </figure>
         </div>
     </section>
 
-    <section class="contact-me">
+    <section id="contact-me">
         <h2>Contact Me</h2>
             <ul>
                 <li><a href="#">Phone Number</a></li>
